@@ -1,12 +1,9 @@
-import base64
-import requests
 import os
 import requests
 import json
 import base64
 from dotenv import load_dotenv
 load_dotenv()
-
 
 url = "https://openrouter.ai/api/v1/chat/completions"
 headers = {
